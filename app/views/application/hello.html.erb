@@ -1,4 +1,4 @@
 <h1>Hi, <%= session[:name] %>.</h1>
-<%= form_tag({controllers: 'sessions' action: 'destroy' method: 'post'}) do %>
+<%= form_tag({controllers: 'sessions', action: 'destroy' method: 'post'}) do %>
 <input type=submit value="logout"> 
 <% end %>

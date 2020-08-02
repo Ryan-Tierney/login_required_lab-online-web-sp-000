@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   end 
   
   def current_user 
-    session[:username]
+    session[:name]
   end 
   
   def require_logged_in?

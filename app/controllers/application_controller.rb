@@ -10,5 +10,6 @@ class ApplicationController < ActionController::Base
     session[:username]
   end 
   
-  def is_logged_in?
+  def require_logged_in?
+  end 
 end
